@@ -24,7 +24,8 @@ DEPS = [
     dependency('libcurl'),
     dependency('openssl'),
     dependency('readline'),
-    dependency('tscore')
+    dependency('tscore'),
+    CORE_DEPS
 ]
 
 tsduck = library('tsduck', [SOURCES, TSDUCK_H], dependencies: DEPS, include_directories: INC_DIRS, install: true, cpp_args: CPP_ARGS)

@@ -36,7 +36,8 @@ DEPS = [
     dependency('libcurl'),
     dependency('openssl'),
     dependency('readline'),
-    dependency('zlib')
+    dependency('zlib'),
+    CORE_DEPS
 ]
 
 TSCORE_H = custom_target('tscore.h', output: 'tscore.h',  command: [meson.project_source_root() / 'scripts' / 'build-tsduck-header.py', 'tscore', '@OUTPUT@'])

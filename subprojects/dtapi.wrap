@@ -1,0 +1,11 @@
+[wrap-file]
+directory = DTAPI-SDK
+
+source_url =  https://www.dektec.com/products/SDK/DTAPI/Downloads/LinuxSDK_v2025.01.0.tar.gz
+source_filename = LinuxSDK_v2025.01.0.tar.gz
+source_hash = 47ee7d8ef0bea6c6e57723608af22b499eb9d2f790b45609015c853c7b9f7e15
+lead_directory_missing = true
+patch_directory=DTAPI-SDK
+
+[provide]
+dtapi = dtapi

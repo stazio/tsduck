@@ -1,0 +1,5 @@
+option('dektec', type: 'feature', value: 'enabled')
+option('srt', type: 'feature', value: 'auto')
+option('rist', type: 'feature', value: 'auto')
+#option('vatek', type: 'feature', value: 'enabled')
+option('pcsc', type: 'feature', value: 'auto')
